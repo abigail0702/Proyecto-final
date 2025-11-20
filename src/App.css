@@ -1,0 +1,140 @@
+/* ESTILO GENERAL  */
+body {
+  background: #f7fafc;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTENEDOR GENERAL PARA TODAS LAS PÁGINAS */
+.container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 40px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TÍTULOS */
+h1, h2, h3 {
+  color: #5a5a5a;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* BOTONES GENERALES  */
+.btn {
+  background: #6ec1e4;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #5ab2d2;
+}
+
+/* Botón rojo */
+.btn-delete {
+  background: #ff6b6b;
+}
+
+.btn-delete:hover {
+  background: #e45858;
+}
+
+/* Botón verde */
+.btn-edit {
+  background: #6fcf97;
+}
+
+.btn-edit:hover {
+  background: #5dbf86;
+}
+
+/* Botón para regresar */
+.btn-back {
+  background: #c7d2fe;
+  color: #333;
+  width: auto;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+
+/*  INPUTS */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #cbd5e0;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #6ec1e4;
+  box-shadow: 0 0 5px rgba(110, 193, 228, 0.5);
+}
+
+/*  TARJETAS  */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #444;
+}
+
+/*  ESTILO PARA HOME (MENÚ PRINCIPAL)  */
+.home-container {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 60px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Grupo de botones del menú */
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+/* Botones del Home */
+.menu-btn {
+  background: #6ec1e4;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.menu-btn:hover {
+  background: #5ab2d2;
+}

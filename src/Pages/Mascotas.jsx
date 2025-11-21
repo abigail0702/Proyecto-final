@@ -92,7 +92,7 @@ function Mascotas({ onChangePage }) {
       <hr />
 
       {lista.map((m) => (
-        <div key={m.id} style={{ border: "1px solid #ccc", margin: "10px", padding: "10px" }}>
+        <div key={m.id} className="card">
           <p><strong>Nombre:</strong> {m.nombre}</p>
           <p><strong>Raza:</strong> {m.raza}</p>
           <p><strong>Tamaño:</strong> {m.tamano}</p>
@@ -111,5 +111,6 @@ function Mascotas({ onChangePage }) {
 }
 
 export default Mascotas;
+
 
 

@@ -80,7 +80,7 @@ function Servicios({ onChangePage }) {
       <hr />
 
       {lista.map((s) => (
-        <div key={s.id} style={{ border: "1px solid #ccc", margin: "10px", padding: "10px" }}>
+        <div key={s.id} className="card">
           <p><strong>Servicio:</strong> {s.nombre}</p>
           <p><strong>Precio:</strong> Q{s.precio}</p>
           <p><strong>Descripción:</strong> {s.descripcion}</p>
@@ -96,4 +96,5 @@ function Servicios({ onChangePage }) {
 }
 
 export default Servicios;
+
 

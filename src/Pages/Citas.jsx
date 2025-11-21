@@ -84,7 +84,7 @@ function Citas({ onChangePage }) {
       <hr />
 
       {lista.map((c) => (
-        <div key={c.id} style={{ border: "1px solid #ccc", margin: "10px", padding: "10px" }}>
+        <div key={c.id} className="card">
           <p><strong>Mascota:</strong> {c.mascota}</p>
           <p><strong>Fecha:</strong> {c.fecha}</p>
           <p><strong>Hora:</strong> {c.hora}</p>
@@ -101,4 +101,5 @@ function Citas({ onChangePage }) {
 }
 
 export default Citas;
+
 
